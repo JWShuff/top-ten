@@ -8,20 +8,49 @@
   </head>
   <body>
     <header title="I'm a Header!">
-      <h1 title="I'm an H1">My Top Ten</h1>
+      <h1 id ="title" title="I'm an H1">My Top Ten</h1>
       <img title="I'm an img" src="http://www.incrediblethings.com/wp-content/uploads/2012/07/cat-votes-for-himself.jpg">
     </header>
     <section class="section" title="I'm The HTML Section">
       <h2 title="I'm an H2">HTML</h2>
-      <p title="I'm a p">Here are a few HTML things I like:</p>
+      <p title="I'm a p">My experience with front end and visual UX/UI design is basically 0. So I'm taking this as a chance to really stretch out what I suspect will be core methods and functionality.</p>
       <!-- Copy this Definition Div for each HTML thing you choose -->
-      <div class="definition" title="I'm a Definition Div!">
-        <h3>TERM TITLE</h3>
-        <p>Describe this term, and make an example of how its used:</p>
+      <div class="section" title="I'm a Definition Div!">
+        <h3>The a element</h3>
+        <p>So, the a element serves to format links and act as a clickable element on a page. It can point to links, emails, even <a class = "linkformat" href= #title> locations in this document!</a></p>
+        <p>It also has all sorts of CSS styling options available that alter behavior from hovered, to clicked, and so on.</p>
         <!-- EXAMPLE CODE GOES HERE -->
-      <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-      <a href="#">resource link</a>
+      <pre title="i'm a pre tag for code!"> < a > is the opening tag and < / a > is the closing tag. < a href= >normally begins the link, and you can use mailto:, #(insertIDInPageHere), or a web link. </pre>
+      <a href="https://htmlreference.io/element/a/">Heres the < a > link</a>
     </div>
+    <br />
+    <div class="content-section" title="I'm a Definition Div!">
+      <h3>The pre marker</h3>
+      <p> I had to look up what the < pre > does in order to write things properly. So now you get to learn too! </p>
+      <p>It also has all sorts of CSS styling options available that alter behavior from hovered, to clicked, and so on.
+      </p>
+      <!-- EXAMPLE CODE GOES HERE -->
+      <pre title="i'm a pre tag for code!"> 
+        < pre > opens and < /pre > closes the block. No text is formatted in the block...but pre {} in your style sheet allows you to define a set styling for text inside of pre blocks.
+      </pre>
+      <a class="linkformat" href="https://htmlreference.io/element/pre/">Heres the < pre > link</a>
+    </div>
+        <div class="content-section" title="I'm a Definition Div!">
+          <h3>Input</h3>
+          <p> So input is almost definitely going to be a thing we use a ton. It's got some predefined "types" where it will do some data validation on your behalf and/or instruct mobile browsers what sorts of inputs to use.</p>
+
+          <input type="text" name = "first_name" placeholder="The placeholder is default text that appears in your input box!">
+
+          <p>
+            input can also handle numbers, or email addresses. But you shouldn't count on the outputs of the element to be fully validated before use in your programs.
+          </p>
+          <!-- EXAMPLE CODE GOES HERE -->
+          <pre title="i'm a pre tag for code!">
+            input has a number of sections: 
+          </pre>
+          <br />
+          <a class="https://htmlreference.io/element/input/" href=#>Heres the < input > link</a>
+        </div>
   </section>
   <section class="section" title="I'm The CSS Section">
     <h2 title="I'm an H2">CSS Things</h2>
@@ -31,12 +60,13 @@
       <h3>TERM TITLE</h3>
       <p>Describe this term, and make an example of how its used:</p>
       <!-- EXAMPLE CODE GOES HERE -->
+      
     <pre title="i'm a pre tag for code!"> < html > is the opening tag and < / html > is the closing tag.</pre>
-    <a href="#">resource link</a>
+    <a href="#"></a>
   </div>
 </section>
-<footer>
-  <p>Made with gusto by <a href="#">YOUR NAME HERE</a></p>
+<footer class = "linkformat">
+  <p>Made with gusto by <a href="mailto: email_recipient@mail.com">Jack Shuff</a></p>
 </footer>
 </body>
 </html>

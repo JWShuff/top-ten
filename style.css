@@ -1,1 +1,27 @@
 /* to show your CSS things, you'll likely need to use this file */
+
+body {
+  width: 85%;
+  color: #303030;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0, 40, .2);
+}
+p {
+
+}
+
+a {
+  color:darkmagenta;
+  text-decoration: none;
+}
+a:visited {
+  color: red;
+  text-decoration: none;
+}
+
+pre {
+  font-size: .8rem;
+  white-space: pre-wrap;
+}
