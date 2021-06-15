@@ -20,7 +20,9 @@
         <p>So, the a element serves to format links and act as a clickable element on a page. It can point to links, emails, even <a class = "linkformat" href= #title> locations in this document!</a></p>
         <p>It also has all sorts of CSS styling options available that alter behavior from hovered, to clicked, and so on.</p>
         <!-- EXAMPLE CODE GOES HERE -->
-      <pre title="i'm a pre tag for code!"> < a > is the opening tag and < / a > is the closing tag. < a href= >normally begins the link, and you can use mailto:, #(insertIDInPageHere), or a web link. </pre>
+      <pre title="i'm a pre tag for code!"> 
+        < a > is the opening tag and < / a > is the closing tag. < a href= >normally begins the link, and you can use mailto:, #(insertIDInPageHere), or a web link. 
+      </pre>
       <a href="https://htmlreference.io/element/a/">Heres the < a > link</a>
     </div>
     <br />
@@ -37,17 +39,24 @@
     </div>
         <div class="content-section" title="I'm a Definition Div!">
           <h3>Input</h3>
-          <p> So input is almost definitely going to be a thing we use a ton. It's got some predefined "types" where it will do some data validation on your behalf and/or instruct mobile browsers what sorts of inputs to use.</p>
+          <p> 
+            So input is almost definitely going to be a thing we use a ton. It's got some predefined "types" where it will do some data validation on your behalf and/or instruct mobile browsers what sorts of inputs to use.
+          </p>
 
           <input type="text" name = "first_name" placeholder="The placeholder is default text that appears in your input box!">
 
           <p>
             input can also handle numbers, or email addresses. But you shouldn't count on the outputs of the element to be fully validated before use in your programs.
           </p>
-          <!-- EXAMPLE CODE GOES HERE -->
           <pre title="i'm a pre tag for code!">
-            input has a number of sections: 
+            input has a number of sections: name which is required and must be unique to the form, it allows the server to access each input's value when submitted.
+            <br/>
+            Best practice is to use a label, and then a placeholder with an example like such:
           </pre>
+          <form>
+            <label>Email</label><br>
+            <input type="email" name="email" placeholder="e.g. alex@smith.com">
+            </form>
           <br />
           <a class="https://htmlreference.io/element/input/" href=#>Heres the < input > link</a>
         </div>
